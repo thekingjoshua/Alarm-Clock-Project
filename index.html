@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Alarm Clock</title>
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css" />
+	</head>
+	<body>
+		<div class="container">
+			<h3>Current Time <i class="fa fa-clock-o"></i></h3>
+			<div class="clock"><span> </span><span> </span><span> </span></div>
+			<!-- Clock container -->
+			<h2>Set Alarm <i class="fa fa-bell"></i></h2>
+			<div class="alarm">
+				<select>
+					<option value="">Hour</option>
+				</select>
+				<select>
+					<option value="">Minutes</option>
+				</select>
+			</div>
+			<div class="btn__container">
+				<button>Set Alarm</button>
+			</div>
+			<div class="time__left"></div>
+			<audio src="beep-beep-alarm.mp3" loop></audio>
+		</div>
+		<footer>Built with &hearts; by <a href="https://kingjoshua.netlify.app">KingJoshua</a></footer>
+		<script src="app.js"></script>
+	</body>
+</html>
